@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #00112a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#heading-admin {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#attendance-button-div {
+    text-align: center;
+    margin: 20px;
+}
+
+#attendance-button {
+    width: 220px;
+    background-color: white;
+    color: #00112a;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px solid transparent;
+}
+#attendance-button a{
+    text-decoration: none;
+    list-style: none;
+}
+
+#attendance-button:hover {
+    box-shadow: 0px 0px 4px 4px gray;
+    cursor: pointer;
+}
+#class-total{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
+#att-heading{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 5px 0px 15px 0px;
+}
+#attendance-table {
+    color: white;
+    margin: auto;
+}
+
+.table-heading-admin {
+    padding: 0px 20px;
+}
+
+.date-heading {
+    padding: 0px 6px;
+}
+
+#logout-button-div {
+    text-align: center;
+    margin: 20px;
+}
+
+#logout-button {
+    width: 150px;
+    background-color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px solid transparent;
+    margin-top: 100px;
+}
+
+#logout-button a{
+    text-decoration: none;
+    list-style: none;
+    color: #00112a;
+}
+
+#logout-button:hover {
+    box-shadow: 0px 0px 4px 4px gray;
+    cursor: pointer;
+}
+#excel-button{
+    width: 190px;
+    background-color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 0px solid transparent;
+    text-align: center;
+    margin-left: 670px;
+    margin-top: 70px;
+
+}
+#excel-button a{
+
+        text-decoration: none;
+        list-style: none;
+        color: #00112a;
+    
+}
+#excel-button:hover{
+    box-shadow: 0px 0px 4px 4px gray;
+    cursor: pointer;
+}

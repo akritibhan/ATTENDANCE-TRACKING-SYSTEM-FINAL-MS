@@ -1,0 +1,15 @@
+body{
+    background-color:#00112a ;
+}
+.att-head{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+#img-att{
+    width: 50%;
+    margin-left: 300px;
+  
+
+}

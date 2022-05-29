@@ -1,0 +1,105 @@
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #00112a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#register-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#form-container-admin {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #ffffff;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 5%;
+}
+#form-container-admin h3{
+  color: #00112a;
+  margin-top: 7px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+#button-box-admin {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #88a7d5;
+  border-radius: 30px;
+  background-color: #012253;
+ 
+}
+.toggle-btn-admin {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  color: white;
+}
+#btn-admin {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #195dc2, #88a7d5);
+  border-radius: 30px;
+  transition: 1s;
+}
+
+.register-form-admin {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 1s;
+}
+
+.input-form-admin {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+#or-admin{
+  text-align: center;
+}
+.submit-btn-admin {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right,  #195dc2, #88a7d5);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  margin-top: 10px;
+}
+#login-admin{
+  left: 50px;
+  
+}
+#register-admin{
+  left: 450px;
+}
+
+
+

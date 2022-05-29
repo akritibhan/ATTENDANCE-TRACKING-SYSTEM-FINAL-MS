@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../static/register.css" />
+</head>
+
+<body>
+  <div id="register-container">
+    <div id="form-container-admin">
+      <h3>ADMIN PORTAL</h3>
+
+      <div id="button-box-admin">
+        <div id="btn-admin"></div>
+        <button type="button" class="toggle-btn-admin" onclick="login_admin()">
+          Login
+        </button>
+        <button type="button" class="toggle-btn-admin" onclick="register_admin()">
+          Register
+        </button>
+      </div>
+      <form action="/login_validation" class="register-form-admin" method="post" id="login-admin">
+        <input type="email" placeholder="Enter your Email" name="email" required class="input-form-admin" />
+
+        <input type="number" name="pin" placeholder="Enter the Security Pin" required class="input-form-admin" />
+        <button type="submit" class="submit-btn-admin">LOGIN</button>
+      </form>
+      <form action="/insert_data" class="register-form-admin" method="post" id="register-admin">
+        <input type="text" placeholder="Enter your name" name="name" required class="input-form-admin" />
+        <input type="email" name="email" placeholder="Enter your Email-Id" required class="input-form-admin" />
+        <input type="number" name="pin" placeholder="Enter Your Security Pin" required class="input-form-admin" />
+        <button type="submit" class="submit-btn-admin">REGISTER</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    var x1 = document.getElementById("login-admin");
+    var y1 = document.getElementById("register-admin");
+    var z1 = document.getElementById("btn-admin");
+
+    function register_admin() {
+      x1.style.left = "-400px";
+      y1.style.left = "50px";
+      z1.style.left = "110px";
+    }
+    function login_admin() {
+      x1.style.left = "50px";
+      y1.style.left = "450px";
+      z1.style.left = "0";
+    }
+  </script>
+</body>
+
+</html>
